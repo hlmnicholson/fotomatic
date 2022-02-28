@@ -129,6 +129,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin: auto 0 auto 100px;
+
 }
 
 #sign-up-cta .content {
@@ -239,7 +241,7 @@ header .mobile {
 .feature .image-container img {
   width: 100%;
   height: auto;
-  
+
 }
 
 .feature h2 {
