@@ -245,7 +245,7 @@ header .mobile {
 }
 
 .feature .content {
-  margin-top: 40px;
+  margin: 2.5rem;
 }
 
 .feature h2 {
@@ -384,17 +384,23 @@ header .mobile {
 @media only screen and (max-width: 760px) {
   #quotes-section .content {
     padding: 1.875rem .625rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 2px solid red;
   }
-
+  
   #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
+    text-align: left;
+    padding: 0%;
+    width: 70%;
   }
-
+  
   #quotes-section .quote-citation {
-    display: block;
     padding-top: 1rem;
-    margin: auto;
+    margin: 0;
   }
 }
 
