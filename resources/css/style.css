@@ -244,6 +244,10 @@ header .mobile {
 
 }
 
+.feature .content {
+  margin-top: 40px;
+}
+
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
