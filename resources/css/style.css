@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -122,6 +123,7 @@ header .mobile {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 100%;
 }
 
 #sign-up-cta {
@@ -219,7 +221,7 @@ header .mobile {
 #features-section {
   display: flex;
   justify-content: space-between;
-  padding: 4rem 5%;
+  padding: 4em 5%;
   background-color: #f3f3f3;
 }
 
@@ -228,8 +230,6 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
-  height: 635px;
-
 }
 
 .feature .image-container {
@@ -238,14 +238,8 @@ header .mobile {
   margin: 0 auto;
 }
 
-.feature .image-container img {
-  width: 100%;
-  height: auto;
-
-}
-
 .feature .content {
-  margin: 2.5rem;
+  margin: 2.5rem 0;
 }
 
 .feature h2 {
@@ -290,6 +284,7 @@ header .mobile {
 /* Filters Section */
 
 #filters-section {
+  /* margin: 200px 0 0 0; */
   padding: 4rem 0;
   background-color: #4a4a4a;
 }
@@ -351,6 +346,8 @@ header .mobile {
 
   #filters-section .images-container {
     padding: 0;
+
+    justify-content: center;
   }
 
   #filters-section .extra {
@@ -365,7 +362,11 @@ header .mobile {
 }
 
 #quotes-section .content {
-  padding: 5rem 0;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
 }
 
 #quotes-section .quote {
@@ -375,6 +376,7 @@ header .mobile {
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
+  text-align: left;
 }
 
 #quotes-section .quote-citation {
@@ -387,7 +389,6 @@ header .mobile {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    border: 2px solid red;
   }
   
   #quotes-section .quote {
